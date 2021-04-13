@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\server">
+      <UniqueIdentifier>{40a77f0f-a5fd-4f75-913c-063393d74fe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\app">
+      <UniqueIdentifier>{e194718a-5d01-4827-98dc-d4a33885088e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\server">
+      <UniqueIdentifier>{44be43b7-b11d-4058-a192-82e790bebd0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\communication">
+      <UniqueIdentifier>{d3a468bd-4071-41b9-a2dd-a1e1c4e181fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\commandes">
+      <UniqueIdentifier>{df872005-c975-4658-a876-210a28b18ea7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\commandes">
+      <UniqueIdentifier>{8eae0214-a167-4e70-930c-bb8da5f98fb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Server_motiv">
+      <UniqueIdentifier>{2eb2bdef-5131-4a74-862b-b567a5744168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\calibrage">
+      <UniqueIdentifier>{4fb2d312-6662-47ee-a2fa-bdf3a26fff6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\calibrage">
+      <UniqueIdentifier>{2361b2e0-a808-4c1d-a180-daec404ffb43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\sdd">
+      <UniqueIdentifier>{072743c6-f658-4b9b-82d9-58a6cf874b90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\sdd">
+      <UniqueIdentifier>{1d30051a-8bcc-472d-b6e6-9b2586fd98e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\calibrage\handler">
+      <UniqueIdentifier>{d87087e5-49c5-405e-9dd9-f138158c11f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\calibrage\handler">
+      <UniqueIdentifier>{7a242461-6df6-4db6-ba3c-50ce4f8fd2b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\maths">
+      <UniqueIdentifier>{fd25a098-29fd-4e4c-ac65-ddf9d4524c08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\maths">
+      <UniqueIdentifier>{ff6e3f52-1521-4d42-beb5-4783154b7fc5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ServerTCP.cpp">
+      <Filter>Fichiers sources\server</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandesServeur.cpp">
+      <Filter>Fichiers sources\commandes</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandeHelp.cpp">
+      <Filter>Fichiers sources\commandes</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandeQuitter.cpp">
+      <Filter>Fichiers sources\commandes</Filter>
+    </ClCompile>
+    <ClCompile Include="ManagerCommandes.cpp">
+      <Filter>Fichiers sources\commandes</Filter>
+    </ClCompile>
+    <ClCompile Include="Server_motiv.cpp">
+      <Filter>Fichiers sources\Server_motiv</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandeRequeteServerMotive.cpp">
+      <Filter>Fichiers sources\commandes</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="DataCalibrage.cpp">
+      <Filter>Fichiers sources\calibrage</Filter>
+    </ClCompile>
+    <ClCompile Include="Point3D.cpp">
+      <Filter>Fichiers sources\sdd</Filter>
+    </ClCompile>
+    <ClCompile Include="DataCalibrageHandler.cpp">
+      <Filter>Fichiers sources\calibrage\handler</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandAddDataCalibrage.cpp">
+      <Filter>Fichiers sources\commandes</Filter>
+    </ClCompile>
+    <ClCompile Include="vecteur3D.cpp">
+      <Filter>Fichiers sources\maths</Filter>
+    </ClCompile>
+    <ClCompile Include="RealToScreen.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandeInfoDoigt.cpp">
+      <Filter>Fichiers sources\commandes</Filter>
+    </ClCompile>
+    <ClCompile Include="axes.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="plan.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="reel_vers_ecran.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandeCSV.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ServerTCP.h">
+      <Filter>Fichiers d%27en-tête\server</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandesServeur.h">
+      <Filter>Fichiers d%27en-tête\commandes</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandeHelp.h">
+      <Filter>Fichiers d%27en-tête\commandes</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandeQuitter.h">
+      <Filter>Fichiers d%27en-tête\commandes</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerCommandes.h">
+      <Filter>Fichiers d%27en-tête\commandes</Filter>
+    </ClInclude>
+    <ClInclude Include="Server_motiv.h">
+      <Filter>Fichiers sources\Server_motiv</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandeRequeteServerMotive.h">
+      <Filter>Fichiers d%27en-tête\commandes</Filter>
+    </ClInclude>
+    <ClInclude Include="DataCalibrage.h">
+      <Filter>Fichiers d%27en-tête\calibrage</Filter>
+    </ClInclude>
+    <ClInclude Include="Point3D.h">
+      <Filter>Fichiers d%27en-tête\sdd</Filter>
+    </ClInclude>
+    <ClInclude Include="DataCalibrageHandler.h">
+      <Filter>Fichiers d%27en-tête\calibrage\handler</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandAddDataCalibrage.h">
+      <Filter>Fichiers d%27en-tête\commandes</Filter>
+    </ClInclude>
+    <ClInclude Include="vecteur3D.h">
+      <Filter>Fichiers d%27en-tête\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="RealToScreen.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandeInfoDoigt.h">
+      <Filter>Fichiers d%27en-tête\commandes</Filter>
+    </ClInclude>
+    <ClInclude Include="Constantes.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="axes.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="plan.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="reel_vers_ecran.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="vecteur3.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandeCSV.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
